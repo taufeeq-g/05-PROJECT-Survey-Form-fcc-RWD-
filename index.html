@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name</label><input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email" id="email-label">Email</label><input type="email" id="email" placeholder="Enter your email" required>
+                <label for="number" id="number-label">Age</label><input type="number" id="number" min="13" max="120" placeholder="Enter your age" required>
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">Choose your gender:</label>
+                <select name="" id="dropdown">
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Don't want to tell</option>
+                </select>
+                <hr>
+                <p class="radio-text">Would you recommend freeCodeCamp to a friend?</p>
+                <label ><input type="radio" name="radio-btn" id="radio-btn" value="3">Definitely</label>
+                <label ><input type="radio" name="radio-btn" id="radio-btn" value="2">Maybe</label>
+                <label ><input type="radio" name="radio-btn" id="radio" value="1">Not sure</label>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <p class="checkbox-text">What Would you like to see improved? (Check all that apply)</p>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Front-end Projects">Front-end Projects</label>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Back-end Projects">Back-end Projects</label>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Data Visualization">Data Visualization</label>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Challenges">Challenges</label>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Open Source Community">Open Source Community</label>
+                <label for=""><input type="checkbox" name="checkbox" id="" value="Videos">Videos</label>
+                <p> Please let us know any suggestions</p>
+                <textarea name="" id="text-area" cols="30" rows="3" placeholder="You can improve projects....."></textarea>
+                
+            </fieldset>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+h1{
+    margin-top: 3%;
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+form{
+    background-color: rgba(47, 88, 205, 0.75);
+    width: 50%;
+    margin: 3% auto;
+    border: 2.5px solid #97DEFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+fieldset{
+    border: 0;
+}
+
+label{
+    display: block;
+    margin:0.1em 0 1em 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+input[type="text"], input[type="email"], input[type="number"]{
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 0;
+    height: 2em;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+    height: 1.9em;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 0;
+    padding-left: 2%;
+}
+
+hr{
+    margin: 7% auto;
+    width: 100%;
+    border: 0 0 0 10px;
+    border-color: blue;
+}
+
+input{
+    margin: 10px;
+    vertical-align: middle;
+    height: 1.3em;
+    width: 1.3em;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-left: 2em;
+}
+
+fieldset p{
+    text-align: left;
+    margin-left: 1.2em;
+}
+
+textarea{
+    margin-left: 2.1em;
+    margin-bottom: 15px;
+    background-color: #97DEFF;
+    border: 0;
+    border-radius: 5px;
+    height: 35%;
+    width: 80%;
+}
+
+textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0 0 10px;
+    color: grey;
+    border: none;
+    font-size: 1rem;
+}
+
+button[type="submit"]{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    margin: 0 40%;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    background-color: #97DEFF;
+}
